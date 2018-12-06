@@ -20,8 +20,8 @@
         <default_value/>
         <defaultsort/>
         <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
+        <dependent>district</dependent>
+        <dependent_on_field>district</dependent_on_field>
         <display>false</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
@@ -54,14 +54,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-12-06 09:50:13</sys_created_on>
         <sys_id>8a2f4dd8dbd62300b68d9c66db961966</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Street where the damage is</sys_name>
         <sys_package display_value="StreetFix" source="x_271485_streetfix">127b880cdb162300b68d9c66db96199e</sys_package>
         <sys_policy/>
         <sys_scope display_value="StreetFix">127b880cdb162300b68d9c66db96199e</sys_scope>
         <sys_update_name>sys_dictionary_x_271485_streetfix_issue_street</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-12-06 15:22:23</sys_updated_on>
+        <sys_updated_on>2018-12-06 15:29:59</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
