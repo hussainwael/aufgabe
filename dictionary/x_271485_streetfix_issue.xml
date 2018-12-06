@@ -1,9 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><database>
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
     <element label="Issue" max_length="40" name="x_271485_streetfix_issue" type="collection">
         <element attributes="edge_encryption_enabled=true" dependent="country" dependent_on_field="country" label="City" mandatory="true" max_length="32" name="city" reference="x_271485_streetfix_city" type="reference" use_dependent_field="true"/>
         <element attributes="edge_encryption_enabled=true" choice="3" label="Country" mandatory="true" max_length="40" name="country" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Deutschland" value="DE"/>
+                <element label="Deutschland" value="DE"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" dependent="city" dependent_on_field="city" label="District" mandatory="true" max_length="32" name="district" reference="x_271485_streetfix_district" type="reference" use_dependent_field="true"/>
