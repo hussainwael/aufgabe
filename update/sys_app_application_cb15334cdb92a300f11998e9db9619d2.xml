@@ -6,25 +6,25 @@
         <description/>
         <device_type>browser</device_type>
         <hint/>
-        <name>Street</name>
+        <name>District</name>
         <order>100</order>
-        <roles>x_271485_streetfix.street_user</roles>
+        <roles>x_271485_streetfix.district_user</roles>
         <sys_class_name>sys_app_application</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-12-06 08:54:41</sys_created_on>
+        <sys_created_on>2018-12-06 08:48:19</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>5096b744db122300b68d9c66db96196e</sys_id>
+        <sys_id>cb15334cdb92a300f11998e9db9619d2</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Street</sys_name>
+        <sys_name>District</sys_name>
         <sys_overrides/>
         <sys_package display_value="StreetFix" source="x_271485_streetfix">127b880cdb162300b68d9c66db96199e</sys_package>
         <sys_policy/>
         <sys_scope display_value="StreetFix">127b880cdb162300b68d9c66db96199e</sys_scope>
-        <sys_update_name>sys_app_application_5096b744db122300b68d9c66db96196e</sys_update_name>
+        <sys_update_name>sys_app_application_cb15334cdb92a300f11998e9db9619d2</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-12-06 08:54:41</sys_updated_on>
-        <title>Street</title>
+        <sys_updated_on>2018-12-06 08:48:19</sys_updated_on>
+        <title>District</title>
         <view_name/>
     </sys_app_application>
 </record_update>
