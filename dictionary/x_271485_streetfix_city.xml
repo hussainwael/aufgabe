@@ -1,13 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
+<?xml version="1.0" encoding="UTF-8"?><database>
     <element label="City" max_length="40" name="x_271485_streetfix_city" type="collection">
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="City ID" max_length="40" name="number" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="3" label="Country" max_length="80" name="u_country" type="choice">
             <choice>
-                <element hint="This a denmark" label="Dänemark" value="4"/>
-                <element label="Deutschland" value="1"/>
-                <element label="England" value="2"/>
-                <element label="Polen" value="5"/>
+                <element hint="This a denmark" inactive_on_update="false" label="Dänemark" value="4"/>
+                <element inactive_on_update="false" label="Deutschland" value="1"/>
+                <element inactive_on_update="false" label="England" value="2"/>
+                <element inactive_on_update="false" label="Polen" value="5"/>
             </choice>
         </element>
         <element label="Zip code" max_length="80" name="u_ip_code" type="string"/>
