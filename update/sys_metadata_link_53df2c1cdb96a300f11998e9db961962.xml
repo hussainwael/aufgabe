@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>353fec9cdb96a300f11998e9db9619d0</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="x_271485_streetfix_street">
+    <x_271485_streetfix_street action="INSERT_OR_UPDATE">
+        <city display_value="Aachen">a0d15850dbd22300b68d9c66db9619df</city>
+        <country/>
+        <district display_value="Oberforstbach">0924dcdcdb16a300f11998e9db9619c3</district>
+        <importance>1</importance>
+        <number>STR0001001</number>
+        <street_name>Pascalstraße</street_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-06 13:03:41</sys_created_on>
+        <sys_id>353fec9cdb96a300f11998e9db9619d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-06 13:03:41</sys_updated_on>
+    </x_271485_streetfix_street>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-06 13:05:01</sys_created_on>
+        <sys_id>53df2c1cdb96a300f11998e9db961962</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>STR0001001</sys_name>
+        <sys_package display_value="StreetFix" source="x_271485_streetfix">127b880cdb162300b68d9c66db96199e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="StreetFix">127b880cdb162300b68d9c66db96199e</sys_scope>
+        <sys_update_name>sys_metadata_link_53df2c1cdb96a300f11998e9db961962</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-06 13:05:01</sys_updated_on>
+        <tablename>x_271485_streetfix_street</tablename>
+    </sys_metadata_link>
+</record_update>
