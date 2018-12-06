@@ -20,10 +20,10 @@
             <element name="city"/>
         </index>
         <index name="index2">
-            <element name="district"/>
+            <element name="street"/>
         </index>
         <index name="index3">
-            <element name="street"/>
+            <element name="district"/>
         </index>
     </element>
 </database>
