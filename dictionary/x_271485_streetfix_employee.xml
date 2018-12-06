@@ -7,7 +7,7 @@
         <element label="Employee Name" mandatory="true" max_length="40" name="employee_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Employee Phone Number" max_length="40" name="employee_phone_number" type="phone_number_e164"/>
         <element attributes="edge_encryption_enabled=true" label="Employee Salary" max_length="40" name="employee_salary" type="float"/>
-        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="EmployeeID" max_length="40" name="number" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="EmployeeID" max_length="40" name="number" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="3" label="Priority" max_length="40" name="priority" read_only="true" type="choice">
             <choice>
                 <element inactive_on_update="false" label="First" value="1"/>

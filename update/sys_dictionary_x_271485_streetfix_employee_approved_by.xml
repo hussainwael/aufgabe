@@ -53,7 +53,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-12-06 10:04:32</sys_created_on>
-        <sys_id>1bf3051cdb962300b68d9c66db961990</sys_id>
+        <sys_id>c81689984f926300726bb63ca310c743</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Approved by</sys_name>
         <sys_package display_value="StreetFix" source="x_271485_streetfix">127b880cdb162300b68d9c66db96199e</sys_package>
@@ -61,7 +61,7 @@
         <sys_scope display_value="StreetFix">127b880cdb162300b68d9c66db96199e</sys_scope>
         <sys_update_name>sys_dictionary_x_271485_streetfix_employee_approved_by</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-12-06 14:33:01</sys_updated_on>
+        <sys_updated_on>2018-12-06 14:42:06</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
