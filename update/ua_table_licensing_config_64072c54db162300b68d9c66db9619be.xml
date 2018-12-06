@@ -4,22 +4,22 @@
         <license_condition/>
         <license_model>none</license_model>
         <license_roles/>
-        <name>x_271485_streetfix_issue</name>
+        <name>x_271485_streetfix_employee</name>
         <op_delete>true</op_delete>
         <op_insert>true</op_insert>
         <op_update>true</op_update>
         <owner_condition/>
         <sys_class_name>ua_table_licensing_config</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-12-06 09:04:50</sys_created_on>
-        <sys_id>e316e4544f126300726bb63ca310c7c4</sys_id>
+        <sys_created_on>2018-12-06 08:59:30</sys_created_on>
+        <sys_id>64072c54db162300b68d9c66db9619be</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_271485_streetfix_issue</sys_name>
+        <sys_name>x_271485_streetfix_employee</sys_name>
         <sys_package display_value="StreetFix" source="x_271485_streetfix">127b880cdb162300b68d9c66db96199e</sys_package>
         <sys_policy/>
         <sys_scope display_value="StreetFix">127b880cdb162300b68d9c66db96199e</sys_scope>
-        <sys_update_name>ua_table_licensing_config_e316e4544f126300726bb63ca310c7c4</sys_update_name>
+        <sys_update_name>ua_table_licensing_config_64072c54db162300b68d9c66db9619be</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-12-06 09:04:50</sys_updated_on>
+        <sys_updated_on>2018-12-06 08:59:30</sys_updated_on>
     </ua_table_licensing_config>
 </record_update>
