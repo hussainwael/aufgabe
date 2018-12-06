@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Employee" max_length="40" name="x_271485_streetfix_employee" type="collection">
-        <element label="employee_ID" max_length="40" name="employee_id" type="string"/>
-        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Assigned District " max_length="32" name="assigned_district" reference="x_271485_streetfix_district" type="reference"/>
+        <element label="Employee Address" max_length="40" name="employee_address" type="string"/>
+        <element label="Employee Name" max_length="40" name="employee_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Employee Phone Number" max_length="40" name="employee_phone_number" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Employee Salary" max_length="40" name="employee_salary" type="float"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Employee ID" max_length="40" name="number" type="string"/>
+        <index name="index">
+            <element name="assigned_district"/>
+        </index>
     </element>
 </database>
