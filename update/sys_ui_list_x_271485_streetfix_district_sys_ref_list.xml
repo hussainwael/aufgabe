@@ -3,7 +3,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>disctrict_name</element>
-            <list_id display_value="x_271485_streetfix_district" element="NULL" name="x_271485_streetfix_district" parent="NULL" relationship="NULL" sys_domain="global" view="bb4123514f312300726bb63ca310c771">67df5458db56a300f11998e9db961905</list_id>
+            <list_id display_value="x_271485_streetfix_district" element="NULL" name="x_271485_streetfix_district" parent="NULL" relationship="NULL" sys_domain="global" view="00d20273db212300f414eb41ca961958">67df5458db56a300f11998e9db961905</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -40,7 +40,7 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2018-12-06 12:09:39</sys_updated_on>
             <sys_user/>
-            <view display_value="Reference List" name="sys_ref_list">bb4123514f312300726bb63ca310c771</view>
+            <view display_value="Reference List" name="sys_ref_list">00d20273db212300f414eb41ca961958</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>
