@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_documentation element="number" label="Number" language="en" table="x_271485_streetfix_street">
+    <sys_documentation element="street_name" label="Street Name" language="en" table="x_271485_streetfix_street">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>number</element>
+            <element>street_name</element>
             <help/>
             <hint/>
-            <label>Number</label>
+            <label>Street Name</label>
             <language>en</language>
             <name>x_271485_streetfix_street</name>
-            <plural>Numbers</plural>
+            <plural>Street Names</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-12-06 08:54:43</sys_created_on>
-            <sys_id>7c96b744db122300b68d9c66db9619e3</sys_id>
+            <sys_created_on>2018-12-06 09:10:20</sys_created_on>
+            <sys_id>e52a7740dbd2a300f11998e9db96194d</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Number</sys_name>
+            <sys_name>Street Name</sys_name>
             <sys_package display_value="StreetFix" source="x_271485_streetfix">127b880cdb162300b68d9c66db96199e</sys_package>
             <sys_policy/>
             <sys_scope display_value="StreetFix">127b880cdb162300b68d9c66db96199e</sys_scope>
-            <sys_update_name>sys_documentation_x_271485_streetfix_street_number_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_271485_streetfix_street_street_name_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-12-06 08:54:43</sys_updated_on>
+            <sys_updated_on>2018-12-06 09:10:20</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
