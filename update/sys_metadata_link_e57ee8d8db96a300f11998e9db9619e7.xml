@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>ba5e60d4db96a300f11998e9db96191e</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="x_271485_streetfix_street">
+    <x_271485_streetfix_street action="INSERT_OR_UPDATE">
+        <city display_value="Frankfurt am Main">d0f2d098db16a300f11998e9db9619fb</city>
+        <country/>
+        <district display_value="Bockenheim">c974d4d8db16a300f11998e9db961937</district>
+        <importance>2</importance>
+        <number>STR0001004</number>
+        <street_name>Sophienstraße</street_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-06 12:58:44</sys_created_on>
+        <sys_id>ba5e60d4db96a300f11998e9db96191e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-06 12:58:44</sys_updated_on>
+    </x_271485_streetfix_street>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-06 12:58:53</sys_created_on>
+        <sys_id>e57ee8d8db96a300f11998e9db9619e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>STR0001004</sys_name>
+        <sys_package display_value="StreetFix" source="x_271485_streetfix">127b880cdb162300b68d9c66db96199e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="StreetFix">127b880cdb162300b68d9c66db96199e</sys_scope>
+        <sys_update_name>sys_metadata_link_e57ee8d8db96a300f11998e9db9619e7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-06 12:58:53</sys_updated_on>
+        <tablename>x_271485_streetfix_street</tablename>
+    </sys_metadata_link>
+</record_update>
