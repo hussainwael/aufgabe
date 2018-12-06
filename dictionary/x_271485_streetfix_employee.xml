@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Employee" max_length="40" name="x_271485_streetfix_employee" type="collection">
-        <element attributes="edge_encryption_enabled=true" label="Assigned District " max_length="32" name="assigned_district" reference="x_271485_streetfix_district" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Assigned District" max_length="32" name="assigned_district" reference="x_271485_streetfix_district" type="reference"/>
         <element label="Employee Address" max_length="40" name="employee_address" type="string"/>
         <element label="Employee Name" max_length="40" name="employee_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Employee Phone Number" max_length="40" name="employee_phone_number" type="integer"/>
