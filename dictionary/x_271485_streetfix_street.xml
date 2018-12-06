@@ -1,13 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
+<?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Street" max_length="40" name="x_271485_streetfix_street" type="collection">
         <element label="City" mandatory="true" max_length="32" name="city" reference="x_271485_streetfix_city" type="reference"/>
         <element dependent="City" dependent_on_field="City" label="District" mandatory="true" max_length="32" name="district" reference="x_271485_streetfix_district" type="reference" use_dependent_field="true"/>
         <element choice="3" label="Importance" mandatory="true" max_length="128" name="importance" type="choice">
             <choice>
-                <element label="Important" value="2"/>
-                <element label="Less Important" value="3"/>
-                <element label="More Important" value="1"/>
+                <element inactive_on_update="false" label="Important" value="2"/>
+                <element inactive_on_update="false" label="Less Important" value="3"/>
+                <element inactive_on_update="false" label="More Important" value="1"/>
             </choice>
         </element>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
