@@ -41,7 +41,7 @@
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>u_country</element>
-            <hint/>
+            <hint>This a denmark</hint>
             <inactive>false</inactive>
             <label>Dänemark</label>
             <language>en</language>
@@ -52,10 +52,29 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>dd1604d8db522300f414eb41ca961914</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-12-06 10:03:35</sys_updated_on>
+            <sys_updated_on>2018-12-06 10:39:11</sys_updated_on>
             <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_country</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Polen</label>
+            <language>en</language>
+            <name>x_271485_streetfix_city</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-12-06 10:37:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>32fd44d0db922300f414eb41ca96196d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-12-06 10:37:16</sys_updated_on>
+            <value>5</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
             <element>u_country</element>
@@ -63,7 +82,7 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2018-12-06 08:59:31</sys_created_on>
-            <sys_id>762d44d8db922300b68d9c66db9619e5</sys_id>
+            <sys_id>4aeec814db922300f414eb41ca96193d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>u_country</sys_name>
             <sys_package display_value="StreetFix" source="x_271485_streetfix">127b880cdb162300b68d9c66db96199e</sys_package>
