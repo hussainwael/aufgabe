@@ -28,9 +28,14 @@
         <element label="Your Full Name" mandatory="true" max_length="100" name="reporter_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="Status" max_length="40" name="status" type="choice">
             <choice>
+                <element inactive_on_update="false" label="Assigned" value="3"/>
+                <element inactive_on_update="false" label="Reviewed and complete" value="6"/>
+                <element inactive_on_update="false" label="Reviewed and rejected" value="7"/>
+                <element inactive_on_update="false" label="Work finished" value="5"/>
+                <element inactive_on_update="false" label="Work in progress" value="4"/>
                 <element inactive_on_update="false" label="Waiting to be checked" sequence="0" value="1"/>
-                <element inactive_on_update="false" label="Checked and approved" sequence="1" value="2"/>
-                <element inactive_on_update="false" label="Checked and rejected" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Checked and accepted" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Checked and rejected" sequence="2" value="10"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" dependent="district" dependent_on_field="district" label="Street where the damage is" mandatory="true" max_length="128" name="street" reference="x_271485_streetfix_street" reference_key="street_name" type="reference" use_dependent_field="true"/>
