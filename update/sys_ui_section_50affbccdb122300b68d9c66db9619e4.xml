@@ -4,153 +4,195 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-12-06 10:29:15</sys_created_on>
-            <sys_id>693c0098db922300b68d9c66db961997</sys_id>
+            <sys_created_on>2018-12-06 14:02:17</sys_created_on>
+            <sys_id>4afc3454db962300b68d9c66db961945</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_271485_streetfix_issue" sys_domain="global" view="Default view">50affbccdb122300b68d9c66db9619e4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-12-06 10:29:15</sys_updated_on>
+            <sys_updated_on>2018-12-06 14:02:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>reporter_name</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-12-06 14:02:17</sys_created_on>
+            <sys_id>cafc3454db962300b68d9c66db961945</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_271485_streetfix_issue" sys_domain="global" view="Default view">50affbccdb122300b68d9c66db9619e4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-12-06 14:02:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>reporter_email</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-12-06 14:02:17</sys_created_on>
+            <sys_id>4efc3454db962300b68d9c66db961945</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_271485_streetfix_issue" sys_domain="global" view="Default view">50affbccdb122300b68d9c66db9619e4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-12-06 14:02:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>damage</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-12-06 14:02:17</sys_created_on>
+            <sys_id>cefc3454db962300b68d9c66db961945</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_271485_streetfix_issue" sys_domain="global" view="Default view">50affbccdb122300b68d9c66db9619e4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-12-06 14:02:17</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>country</element>
-            <position>1</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-12-06 10:29:15</sys_created_on>
-            <sys_id>e93c0098db922300b68d9c66db961997</sys_id>
+            <sys_created_on>2018-12-06 14:02:17</sys_created_on>
+            <sys_id>42fc3454db962300b68d9c66db961946</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_271485_streetfix_issue" sys_domain="global" view="Default view">50affbccdb122300b68d9c66db9619e4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-12-06 10:29:15</sys_updated_on>
+            <sys_updated_on>2018-12-06 14:02:17</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>city</element>
-            <position>2</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-12-06 10:29:15</sys_created_on>
-            <sys_id>6d3c0098db922300b68d9c66db961997</sys_id>
+            <sys_created_on>2018-12-06 14:02:17</sys_created_on>
+            <sys_id>c2fc3454db962300b68d9c66db961946</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_271485_streetfix_issue" sys_domain="global" view="Default view">50affbccdb122300b68d9c66db9619e4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-12-06 10:29:15</sys_updated_on>
+            <sys_updated_on>2018-12-06 14:02:17</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>district</element>
-            <position>3</position>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-12-06 10:29:15</sys_created_on>
-            <sys_id>ed3c0098db922300b68d9c66db961997</sys_id>
+            <sys_created_on>2018-12-06 14:02:17</sys_created_on>
+            <sys_id>46fc3454db962300b68d9c66db961946</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_271485_streetfix_issue" sys_domain="global" view="Default view">50affbccdb122300b68d9c66db9619e4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-12-06 10:29:15</sys_updated_on>
+            <sys_updated_on>2018-12-06 14:02:17</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>street</element>
-            <position>4</position>
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-12-06 10:29:15</sys_created_on>
-            <sys_id>613c0098db922300b68d9c66db961998</sys_id>
+            <sys_created_on>2018-12-06 14:02:17</sys_created_on>
+            <sys_id>c6fc3454db962300b68d9c66db961946</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_271485_streetfix_issue" sys_domain="global" view="Default view">50affbccdb122300b68d9c66db9619e4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-12-06 10:29:15</sys_updated_on>
+            <sys_updated_on>2018-12-06 14:02:17</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>5</position>
+            <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-12-06 10:29:15</sys_created_on>
-            <sys_id>e13c0098db922300b68d9c66db961998</sys_id>
+            <sys_created_on>2018-12-06 14:02:17</sys_created_on>
+            <sys_id>4afc3454db962300b68d9c66db961946</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_271485_streetfix_issue" sys_domain="global" view="Default view">50affbccdb122300b68d9c66db9619e4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-12-06 10:29:15</sys_updated_on>
+            <sys_updated_on>2018-12-06 14:02:17</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>status</element>
-            <position>6</position>
+            <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-12-06 10:29:15</sys_created_on>
-            <sys_id>653c0098db922300b68d9c66db961998</sys_id>
+            <sys_created_on>2018-12-06 14:02:17</sys_created_on>
+            <sys_id>cafc3454db962300b68d9c66db961946</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_271485_streetfix_issue" sys_domain="global" view="Default view">50affbccdb122300b68d9c66db9619e4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-12-06 10:29:15</sys_updated_on>
+            <sys_updated_on>2018-12-06 14:02:17</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>impact</element>
-            <position>7</position>
+            <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-12-06 10:29:15</sys_created_on>
-            <sys_id>e53c0098db922300b68d9c66db961998</sys_id>
+            <sys_created_on>2018-12-06 14:02:17</sys_created_on>
+            <sys_id>4efc3454db962300b68d9c66db961946</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_271485_streetfix_issue" sys_domain="global" view="Default view">50affbccdb122300b68d9c66db9619e4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-12-06 10:29:15</sys_updated_on>
+            <sys_updated_on>2018-12-06 14:02:17</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>urgency</element>
-            <position>8</position>
+            <position>11</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-12-06 10:29:15</sys_created_on>
-            <sys_id>693c0098db922300b68d9c66db961998</sys_id>
+            <sys_created_on>2018-12-06 14:02:17</sys_created_on>
+            <sys_id>defc3454db962300b68d9c66db961946</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_271485_streetfix_issue" sys_domain="global" view="Default view">50affbccdb122300b68d9c66db9619e4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-12-06 10:29:15</sys_updated_on>
+            <sys_updated_on>2018-12-06 14:02:17</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>priority</element>
-            <position>9</position>
+            <position>12</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-12-06 10:34:43</sys_created_on>
-            <sys_id>657d809cdb922300b68d9c66db961974</sys_id>
+            <sys_created_on>2018-12-06 14:02:17</sys_created_on>
+            <sys_id>52fc3454db962300b68d9c66db961947</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_271485_streetfix_issue" sys_domain="global" view="Default view">50affbccdb122300b68d9c66db9619e4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-12-06 10:34:43</sys_updated_on>
+            <sys_updated_on>2018-12-06 14:02:17</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>street_importance</element>
-            <position>10</position>
+            <position>13</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-12-06 12:33:59</sys_created_on>
-            <sys_id>38c8e418db162300b68d9c66db96199b</sys_id>
+            <sys_created_on>2018-12-06 14:02:17</sys_created_on>
+            <sys_id>d2fc3454db962300b68d9c66db961947</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_271485_streetfix_issue" sys_domain="global" view="Default view">50affbccdb122300b68d9c66db9619e4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-12-06 12:33:59</sys_updated_on>
+            <sys_updated_on>2018-12-06 14:02:17</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
