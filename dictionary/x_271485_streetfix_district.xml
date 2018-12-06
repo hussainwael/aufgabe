@@ -1,9 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><database>
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
     <element label="District" max_length="40" name="x_271485_streetfix_district" type="collection">
         <element dependent="Country" dependent_on_field="Country" label="City" mandatory="true" max_length="32" name="city" reference="x_271485_streetfix_city" type="reference" use_dependent_field="true"/>
         <element choice="3" label="Country" max_length="128" name="country" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Deutschland" value="de"/>
+                <element label="Deutschland" value="de"/>
             </choice>
         </element>
         <element display="true" label="Disctrict Name" mandatory="true" max_length="128" name="disctrict_name" type="string"/>
