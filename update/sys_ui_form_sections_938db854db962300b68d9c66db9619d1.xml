@@ -14,20 +14,6 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2018-12-06 14:04:49</sys_updated_on>
         </sys_ui_form_section>
-        <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-12-06 14:04:49</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>138db854db962300b68d9c66db9619d4</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_overrides/>
-            <sys_ui_form display_value="x_271485_streetfix_issue" name="x_271485_streetfix_issue" sys_domain="global" view="fc4670d8db562300b68d9c66db961976">938db854db962300b68d9c66db9619d1</sys_ui_form>
-            <sys_ui_section caption="Terms of Use" display_value="Terms of Use" name="x_271485_streetfix_issue" sys_domain="global" view="fc4670d8db562300b68d9c66db961976">538db854db962300b68d9c66db9619d0</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-12-06 14:04:49</sys_updated_on>
-        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_271485_streetfix_issue</name>
             <roles/>
