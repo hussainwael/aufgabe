@@ -1,43 +1,43 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
+<?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Issue" max_length="40" name="x_271485_streetfix_issue" type="collection">
         <element attributes="edge_encryption_enabled=true" dependent="country" dependent_on_field="country" label="City" mandatory="true" max_length="32" name="city" reference="x_271485_streetfix_city" reference_qual="javascript: 'district=' + current.district;" type="reference" use_dependent_field="true" use_reference_qualifier="advanced"/>
         <element attributes="edge_encryption_enabled=true" choice="3" label="Country" mandatory="true" max_length="40" name="country" type="choice">
             <choice>
-                <element label="Deutschland" value="DE"/>
+                <element inactive_on_update="false" label="Deutschland" value="DE"/>
             </choice>
         </element>
         <element label="Damage" mandatory="true" max_length="500" name="damage" type="string"/>
         <element attributes="edge_encryption_enabled=true" dependent="city" dependent_on_field="city" label="District" mandatory="true" max_length="32" name="district" reference="x_271485_streetfix_district" reference_qual="javascript: 'country=' + current.country;" type="reference" use_dependent_field="true" use_reference_qualifier="advanced"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="Impact" mandatory="true" max_length="40" name="impact" type="choice">
             <choice>
-                <element label="Very Important" sequence="1" value="1"/>
-                <element label="Important" sequence="2" value="2"/>
-                <element label="Not Important" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="Very Important" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="Important" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="Not Important" sequence="3" value="3"/>
             </choice>
         </element>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Issue ID" max_length="40" name="number" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="Priority" max_length="40" name="priority" read_only="true" type="choice">
             <choice>
-                <element label="First" sequence="1" value="1"/>
-                <element label="Second" sequence="2" value="2"/>
-                <element label="Third" sequence="3" value="3"/>
-                <element label="Fourth" sequence="4" value="4"/>
+                <element inactive_on_update="false" label="First" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="Second" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="Third" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="Fourth" sequence="4" value="4"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="Status" max_length="40" name="status" type="choice">
             <choice>
-                <element label="Waiting to be checked" sequence="0" value="1"/>
-                <element label="Checked and approved" sequence="1" value="2"/>
-                <element label="Checked and rejected" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Waiting to be checked" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Checked and approved" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Checked and rejected" sequence="2" value="3"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" dependent="district" dependent_on_field="district" label="Street" mandatory="true" max_length="32" name="street" reference="x_271485_streetfix_street" type="reference" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" dependent="district" dependent_on_field="district" label="Street" mandatory="true" max_length="128" name="street" reference="x_271485_streetfix_street" reference_key="street_name" type="reference" use_dependent_field="true"/>
+        <element label="Street Importance" max_length="40" name="street_importance" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="Urgency" mandatory="true" max_length="40" name="urgency" type="choice">
             <choice>
-                <element label="Very Urgent" sequence="1" value="1"/>
-                <element label="Urgent" sequence="2" value="2"/>
-                <element label="Not Urgent" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="Very Urgent" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="Urgent" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="Not Urgent" sequence="3" value="3"/>
             </choice>
         </element>
         <index name="index">

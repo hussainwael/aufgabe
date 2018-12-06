@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_script_include">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
     <sys_script_include action="INSERT_OR_UPDATE">
         <access>package_private</access>
         <active>true</active>
@@ -13,9 +12,9 @@ getImportance.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
   getImportance: function() {
 
        var gr = new GlideRecord('x_271485_streetfix_street');
-	  gr.addQuery('sys_id', this.getParameter('sysparm_street'));
-	  gr.query();
-	  if(gr.next()){
+	  gr.get(this.getParameter('sysparm_street'));
+	  var ggg = gr.get(this.getParameter('sysparm_street'));
+	  if(ggg){
 		var importance = gr.getValue('importance');
        return importance;
 	  }
@@ -26,13 +25,13 @@ getImportance.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-12-06 12:14:12</sys_created_on>
         <sys_id>f4c22490db162300b68d9c66db961954</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>getImportance</sys_name>
         <sys_package display_value="StreetFix" source="x_271485_streetfix">127b880cdb162300b68d9c66db96199e</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="StreetFix">127b880cdb162300b68d9c66db96199e</sys_scope>
         <sys_update_name>sys_script_include_f4c22490db162300b68d9c66db961954</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-12-06 12:14:12</sys_updated_on>
+        <sys_updated_on>2018-12-06 12:42:55</sys_updated_on>
     </sys_script_include>
 </record_update>

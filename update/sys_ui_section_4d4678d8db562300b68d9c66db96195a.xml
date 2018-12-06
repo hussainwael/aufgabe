@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="4d4678d8db562300b68d9c66db96195a" sys_domain="global" table="x_271485_streetfix_issue" version="3" view="Portal_View">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>country</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-12-06 13:47:42</sys_created_on>
+            <sys_id>20a978dcdb562300b68d9c66db96194b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_271485_streetfix_issue" sys_domain="global" view="fc4670d8db562300b68d9c66db961976">4d4678d8db562300b68d9c66db96195a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-12-06 13:47:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>city</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-12-06 13:47:42</sys_created_on>
+            <sys_id>a0a978dcdb562300b68d9c66db96194b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_271485_streetfix_issue" sys_domain="global" view="fc4670d8db562300b68d9c66db961976">4d4678d8db562300b68d9c66db96195a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-12-06 13:47:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>district</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-12-06 13:47:42</sys_created_on>
+            <sys_id>24a978dcdb562300b68d9c66db96194b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_271485_streetfix_issue" sys_domain="global" view="fc4670d8db562300b68d9c66db961976">4d4678d8db562300b68d9c66db96195a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-12-06 13:47:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>street</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-12-06 13:47:42</sys_created_on>
+            <sys_id>a4a978dcdb562300b68d9c66db96194b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_271485_streetfix_issue" sys_domain="global" view="fc4670d8db562300b68d9c66db961976">4d4678d8db562300b68d9c66db96195a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-12-06 13:47:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-12-06 13:47:42</sys_created_on>
+            <sys_id>28a978dcdb562300b68d9c66db96194b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_271485_streetfix_issue" sys_domain="global" view="fc4670d8db562300b68d9c66db961976">4d4678d8db562300b68d9c66db96195a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-12-06 13:47:42</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_271485_streetfix_issue</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-12-06 13:32:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4d4678d8db562300b68d9c66db96195a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_271485_streetfix_issue</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="StreetFix" source="x_271485_streetfix">127b880cdb162300b68d9c66db96199e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="StreetFix">127b880cdb162300b68d9c66db96199e</sys_scope>
+            <sys_update_name>sys_ui_section_4d4678d8db562300b68d9c66db96195a</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-12-06 13:32:59</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Portal View" name="Portal_View">fc4670d8db562300b68d9c66db961976</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
