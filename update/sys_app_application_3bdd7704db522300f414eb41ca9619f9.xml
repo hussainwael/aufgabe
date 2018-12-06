@@ -7,7 +7,7 @@
         <hint>Application track demages on the streets</hint>
         <name/>
         <order>100</order>
-        <roles/>
+        <roles>snc_internal</roles>
         <sys_class_name>sys_app_application</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-12-06 09:29:30</sys_created_on>

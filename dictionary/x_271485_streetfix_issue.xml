@@ -15,7 +15,21 @@
             </choice>
         </element>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Issue ID" max_length="40" name="number" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Checked and approved" value="2"/>
+                <element inactive_on_update="false" label="Checked and rejected" value="3"/>
+                <element inactive_on_update="false" label="Waiting to be checked" value="1"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" dependent="district" dependent_on_field="district" label="Street" max_length="32" name="street" reference="x_271485_streetfix_street" type="reference" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" label="Urgency" max_length="40" name="urgency" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Not Urgent"/>
+                <element inactive_on_update="false" label="Urgent" value="2"/>
+                <element inactive_on_update="false" label="Very Urgent" value="1"/>
+            </choice>
+        </element>
         <index name="index">
             <element name="city"/>
         </index>
