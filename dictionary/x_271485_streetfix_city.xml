@@ -1,3 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="City" max_length="40" name="x_271485_streetfix_city" type="collection"/>
+    <element label="City" max_length="40" name="x_271485_streetfix_city" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="City ID" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" label="Country" max_length="80" name="u_country" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Deutschland" value="1"/>
+                <element inactive_on_update="false" label="England" value="2"/>
+            </choice>
+        </element>
+        <element default="Aachen" label="Name" mandatory="true" max_length="80" name="u_name" read_only="true" type="string"/>
+    </element>
 </database>
