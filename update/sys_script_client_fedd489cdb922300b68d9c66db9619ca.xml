@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>urgency</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Change Priorty</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+	var i = g_form.getValue('impact');
+	var u = g_form.getValue('urgency');
+	if(i == 1 && u == 1){
+		g_form.setValue('priority', '1');
+	}
+   else if(i == 2 || u == 2){
+		g_form.setValue('priority', '2');
+	}
+	else if(i == 3 || u == 3){
+		g_form.setValue('priority', '3');
+	}
+	else if(i == 3 && u == 3){
+		g_form.setValue('priority', '4');
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-06 10:42:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fedd489cdb922300b68d9c66db9619ca</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Change Priorty</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="StreetFix" source="x_271485_streetfix">127b880cdb162300b68d9c66db96199e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="StreetFix">127b880cdb162300b68d9c66db96199e</sys_scope>
+        <sys_update_name>sys_script_client_fedd489cdb922300b68d9c66db9619ca</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-06 10:51:27</sys_updated_on>
+        <table>x_271485_streetfix_issue</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
