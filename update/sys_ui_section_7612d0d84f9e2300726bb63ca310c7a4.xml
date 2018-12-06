@@ -4,13 +4,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-12-06 11:18:11</sys_created_on>
-            <sys_id>de67d8504fde2300726bb63ca310c7c8</sys_id>
+            <sys_created_on>2018-12-06 12:50:58</sys_created_on>
+            <sys_id>1daca4d04f526300726bb63ca310c71b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_271485_streetfix_employee" sys_domain="global" view="Default view">7612d0d84f9e2300726bb63ca310c7a4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-12-06 11:18:11</sys_updated_on>
+            <sys_updated_on>2018-12-06 12:50:58</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>employee_name</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-12-06 11:18:11</sys_created_on>
-            <sys_id>5267d8504fde2300726bb63ca310c7c9</sys_id>
+            <sys_created_on>2018-12-06 12:50:58</sys_created_on>
+            <sys_id>d1aca4d04f526300726bb63ca310c71c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_271485_streetfix_employee" sys_domain="global" view="Default view">7612d0d84f9e2300726bb63ca310c7a4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-12-06 11:18:11</sys_updated_on>
+            <sys_updated_on>2018-12-06 12:50:58</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>employee_address</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-12-06 11:18:11</sys_created_on>
-            <sys_id>d267d8504fde2300726bb63ca310c7c9</sys_id>
+            <sys_created_on>2018-12-06 12:50:58</sys_created_on>
+            <sys_id>55aca4d04f526300726bb63ca310c71c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_271485_streetfix_employee" sys_domain="global" view="Default view">7612d0d84f9e2300726bb63ca310c7a4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-12-06 11:18:11</sys_updated_on>
+            <sys_updated_on>2018-12-06 12:50:58</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,69 +46,55 @@
             <element>employee_phone_number</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-12-06 11:18:11</sys_created_on>
-            <sys_id>5667d8504fde2300726bb63ca310c7c9</sys_id>
+            <sys_created_on>2018-12-06 12:50:58</sys_created_on>
+            <sys_id>d5aca4d04f526300726bb63ca310c71c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_271485_streetfix_employee" sys_domain="global" view="Default view">7612d0d84f9e2300726bb63ca310c7a4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-12-06 11:18:11</sys_updated_on>
+            <sys_updated_on>2018-12-06 12:50:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>employee_email</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-12-06 12:50:58</sys_created_on>
+            <sys_id>59aca4d04f526300726bb63ca310c71c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_271485_streetfix_employee" sys_domain="global" view="Default view">7612d0d84f9e2300726bb63ca310c7a4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-12-06 12:50:58</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>employee_salary</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-12-06 11:18:11</sys_created_on>
-            <sys_id>d667d8504fde2300726bb63ca310c7c9</sys_id>
+            <sys_created_on>2018-12-06 12:50:58</sys_created_on>
+            <sys_id>d9aca4d04f526300726bb63ca310c71c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_271485_streetfix_employee" sys_domain="global" view="Default view">7612d0d84f9e2300726bb63ca310c7a4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-12-06 11:18:11</sys_updated_on>
+            <sys_updated_on>2018-12-06 12:50:58</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>assigned_district</element>
-            <position>5</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-12-06 11:18:11</sys_created_on>
-            <sys_id>5a67d8504fde2300726bb63ca310c7c9</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_271485_streetfix_employee" sys_domain="global" view="Default view">7612d0d84f9e2300726bb63ca310c7a4</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-12-06 11:18:11</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.split</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-12-06 11:18:11</sys_created_on>
-            <sys_id>da67d8504fde2300726bb63ca310c7c9</sys_id>
+            <sys_created_on>2018-12-06 12:50:58</sys_created_on>
+            <sys_id>5daca4d04f526300726bb63ca310c71c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_271485_streetfix_employee" sys_domain="global" view="Default view">7612d0d84f9e2300726bb63ca310c7a4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-12-06 11:18:11</sys_updated_on>
-            <sys_user/>
-            <type>.split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>employee_email</element>
-            <position>7</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-12-06 12:41:32</sys_created_on>
-            <sys_id>d37aa49c4f126300726bb63ca310c786</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_271485_streetfix_employee" sys_domain="global" view="Default view">7612d0d84f9e2300726bb63ca310c7a4</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-12-06 12:41:32</sys_updated_on>
+            <sys_updated_on>2018-12-06 12:50:58</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
