@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sysevent_email_action">
     <sysevent_email_action action="INSERT_OR_UPDATE">
         <action_insert>false</action_insert>
         <action_update>false</action_update>
@@ -35,50 +36,7 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<style type="text/css"><!--
-body {
-			background-color: #f4f4f4;
-			font-family: Segoe UI !important;
-			padding: 10px;
-		}
-
-		#main {
-			width: 70%;
-			margin: 0 auto;<span id="CmCaReT"></span>
-			padding: 10px;
-			font-size: 23px;
-			margin-top: 50px;
-		}
-
-
-		.obj {
-			margin: 9px 0;
-			font-size: 15px;
-			display: flex;
-			word-break: break-all;
-			box-sizing: border-box;
-
-		}
-
-		.obj_content {
-			background-color: #fff;
-			border-radius: 0 5px 5px 0;
-			box-sizing: border-box;
-			color: #666;
-			flex: 4 0;
-			padding: 15px 20px;
-		}
-
-		.obj_label {
-			background-color: #f9f9f9;
-			padding: 15px 20px;
-			margin-right: 6px;
-			flex: 3 0;
-			box-sizing: border-box;
-			border-radius: 5px 0 0 5px;
-		}
---></style>
-<p><span style="font-size: 12pt;">Dear ${reporter_name},</span></p>
+        <message_html><![CDATA[<p><span style="font-size: 12pt;">Dear ${reporter_name},</span></p>
 <p><span style="font-size: 12pt;">We would like to thank you for reporting an issue to help us make our streets better for everyone. The issue in ${street}&nbsp;that you reported was received to us and will be forwarded to our team.</span></p>
 <div class="obj" style="margin: 9px 0; font-size: 15px; display: flex; word-break: break-all; box-sizing: border-box;">
 <div class="obj_label" style="background-color: #fff; border-radius: 0 5px 5px 0; box-sizing: border-box; color: #666; flex: 4 0; padding: 15px 20px;">Issue ID</div>
@@ -92,12 +50,7 @@ body {
 </div>
 <div class="obj" style="margin: 9px 0; font-size: 15px; display: flex; word-break: break-all; box-sizing: border-box;">
 <div class="obj_label" style="background-color: #fff; border-radius: 0 5px 5px 0; box-sizing: border-box; color: #666; flex: 4 0; padding: 15px 20px;">Damage described</div>
-<div id="CmCaReT" class="obj_content" style="background-color: #fff; border-radius: 0 5px 5px 0; box-sizing: border-box; color: #666; flex: 4 0; padding: 15px 20px;">${damage}</div>
-<div style="clear: both;">&nbsp;</div>
-</div>
-<div class="obj" style="margin: 9px 0; font-size: 15px; display: flex; word-break: break-all; box-sizing: border-box;">
-<div class="obj_label" style="background-color: #fff; border-radius: 0 5px 5px 0; box-sizing: border-box; color: #666; flex: 4 0; padding: 15px 20px;">Street</div>
-<div id="CmCaReT" class="obj_content" style="background-color: #fff; border-radius: 0 5px 5px 0; box-sizing: border-box; color: #666; flex: 4 0; padding: 15px 20px;">${street}</div>
+<div class="obj_content" style="background-color: #fff; border-radius: 0 5px 5px 0; box-sizing: border-box; color: #666; flex: 4 0; padding: 15px 20px;">${damage}</div>
 <div style="clear: both;">&nbsp;</div>
 </div>
 <p><span style="font-size: 12pt;">Thanks!</span></p>
@@ -133,7 +86,7 @@ body {
         <sys_scope display_value="StreetFix">127b880cdb162300b68d9c66db96199e</sys_scope>
         <sys_update_name>sysevent_email_action_9b2af868db526300b68d9c66db961925</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-12-07 10:56:50</sys_updated_on>
+        <sys_updated_on>2018-12-07 11:11:17</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>
