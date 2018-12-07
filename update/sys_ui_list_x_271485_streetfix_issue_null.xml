@@ -10,71 +10,11 @@
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-12-06 13:40:44</sys_created_on>
-            <sys_id>ee08f894dbd6a300f11998e9db9619ef</sys_id>
+            <sys_created_on>2018-12-07 09:28:32</sys_created_on>
+            <sys_id>39e709e4db52e300f11998e9db961917</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-12-06 13:40:44</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>city</element>
-            <list_id display_value="x_271485_streetfix_issue" element="NULL" name="x_271485_streetfix_issue" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ea08f894dbd6a300f11998e9db9619ee</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>1</position>
-            <sum>false</sum>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-12-06 13:40:44</sys_created_on>
-            <sys_id>e608f894dbd6a300f11998e9db9619f0</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-12-06 13:40:44</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>country</element>
-            <list_id display_value="x_271485_streetfix_issue" element="NULL" name="x_271485_streetfix_issue" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ea08f894dbd6a300f11998e9db9619ee</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>2</position>
-            <sum>false</sum>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-12-06 13:40:44</sys_created_on>
-            <sys_id>6a08f894dbd6a300f11998e9db9619f0</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-12-06 13:40:44</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>district</element>
-            <list_id display_value="x_271485_streetfix_issue" element="NULL" name="x_271485_streetfix_issue" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ea08f894dbd6a300f11998e9db9619ee</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>3</position>
-            <sum>false</sum>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-12-06 13:40:44</sys_created_on>
-            <sys_id>ea08f894dbd6a300f11998e9db9619f0</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-12-06 13:40:44</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>impact</element>
-            <list_id display_value="x_271485_streetfix_issue" element="NULL" name="x_271485_streetfix_issue" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ea08f894dbd6a300f11998e9db9619ee</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>4</position>
-            <sum>false</sum>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-12-06 13:40:44</sys_created_on>
-            <sys_id>6e08f894dbd6a300f11998e9db9619f0</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-12-06 13:40:44</sys_updated_on>
+            <sys_updated_on>2018-12-07 09:28:32</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -82,29 +22,29 @@
             <list_id display_value="x_271485_streetfix_issue" element="NULL" name="x_271485_streetfix_issue" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ea08f894dbd6a300f11998e9db9619ee</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
-            <position>5</position>
+            <position>1</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-12-06 13:40:44</sys_created_on>
-            <sys_id>ee08f894dbd6a300f11998e9db9619f0</sys_id>
+            <sys_created_on>2018-12-07 09:28:32</sys_created_on>
+            <sys_id>fde709e4db52e300f11998e9db961917</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-12-06 13:40:44</sys_updated_on>
+            <sys_updated_on>2018-12-07 09:28:32</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>status</element>
+            <element>damage</element>
             <list_id display_value="x_271485_streetfix_issue" element="NULL" name="x_271485_streetfix_issue" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ea08f894dbd6a300f11998e9db9619ee</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
-            <position>6</position>
+            <position>2</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-12-06 13:40:44</sys_created_on>
-            <sys_id>6208f894dbd6a300f11998e9db9619f1</sys_id>
+            <sys_created_on>2018-12-07 09:28:32</sys_created_on>
+            <sys_id>71e709e4db52e300f11998e9db961918</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-12-06 13:40:44</sys_updated_on>
+            <sys_updated_on>2018-12-07 09:28:32</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -112,14 +52,89 @@
             <list_id display_value="x_271485_streetfix_issue" element="NULL" name="x_271485_streetfix_issue" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ea08f894dbd6a300f11998e9db9619ee</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-12-07 09:28:32</sys_created_on>
+            <sys_id>f1e709e4db52e300f11998e9db961918</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-12-07 09:28:32</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>city</element>
+            <list_id display_value="x_271485_streetfix_issue" element="NULL" name="x_271485_streetfix_issue" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ea08f894dbd6a300f11998e9db9619ee</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-12-07 09:28:32</sys_created_on>
+            <sys_id>75e709e4db52e300f11998e9db961918</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-12-07 09:28:32</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>country</element>
+            <list_id display_value="x_271485_streetfix_issue" element="NULL" name="x_271485_streetfix_issue" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ea08f894dbd6a300f11998e9db9619ee</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-12-07 09:28:32</sys_created_on>
+            <sys_id>f5e709e4db52e300f11998e9db961918</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-12-07 09:28:32</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>district</element>
+            <list_id display_value="x_271485_streetfix_issue" element="NULL" name="x_271485_streetfix_issue" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ea08f894dbd6a300f11998e9db9619ee</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-12-07 09:28:32</sys_created_on>
+            <sys_id>79e709e4db52e300f11998e9db961918</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-12-07 09:28:32</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>impact</element>
+            <list_id display_value="x_271485_streetfix_issue" element="NULL" name="x_271485_streetfix_issue" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ea08f894dbd6a300f11998e9db9619ee</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
             <position>7</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-12-06 13:40:44</sys_created_on>
-            <sys_id>e208f894dbd6a300f11998e9db9619f1</sys_id>
+            <sys_created_on>2018-12-07 09:28:32</sys_created_on>
+            <sys_id>f9e709e4db52e300f11998e9db961918</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-12-06 13:40:44</sys_updated_on>
+            <sys_updated_on>2018-12-07 09:28:32</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>status</element>
+            <list_id display_value="x_271485_streetfix_issue" element="NULL" name="x_271485_streetfix_issue" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ea08f894dbd6a300f11998e9db9619ee</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-12-07 09:28:32</sys_created_on>
+            <sys_id>7de709e4db52e300f11998e9db961918</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-12-07 09:28:32</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -127,14 +142,14 @@
             <list_id display_value="x_271485_streetfix_issue" element="NULL" name="x_271485_streetfix_issue" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ea08f894dbd6a300f11998e9db9619ee</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
-            <position>8</position>
+            <position>9</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-12-06 13:40:44</sys_created_on>
-            <sys_id>6608f894dbd6a300f11998e9db9619f1</sys_id>
+            <sys_created_on>2018-12-07 09:28:32</sys_created_on>
+            <sys_id>fde709e4db52e300f11998e9db961918</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-12-06 13:40:44</sys_updated_on>
+            <sys_updated_on>2018-12-07 09:28:32</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -148,7 +163,7 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-12-06 13:40:44</sys_created_on>
+            <sys_created_on>2018-12-07 09:28:32</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>ea08f894dbd6a300f11998e9db9619ee</sys_id>
@@ -159,7 +174,7 @@
             <sys_scope display_value="StreetFix">127b880cdb162300b68d9c66db96199e</sys_scope>
             <sys_update_name>sys_ui_list_x_271485_streetfix_issue_null</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-12-06 13:40:44</sys_updated_on>
+            <sys_updated_on>2018-12-07 09:28:32</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
