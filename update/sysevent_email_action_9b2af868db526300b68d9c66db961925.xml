@@ -92,7 +92,12 @@ body {
 </div>
 <div class="obj" style="margin: 9px 0; font-size: 15px; display: flex; word-break: break-all; box-sizing: border-box;">
 <div class="obj_label" style="background-color: #fff; border-radius: 0 5px 5px 0; box-sizing: border-box; color: #666; flex: 4 0; padding: 15px 20px;">Damage described</div>
-<div id="CmCaReT" class="obj_content" style="background-color: #fff; border-radius: 0 5px 5px 0; box-sizing: border-box; color: #666; flex: 4 0; padding: 15px 20px;">&gt;${damage}</div>
+<div id="CmCaReT" class="obj_content" style="background-color: #fff; border-radius: 0 5px 5px 0; box-sizing: border-box; color: #666; flex: 4 0; padding: 15px 20px;">${damage}</div>
+<div style="clear: both;">&nbsp;</div>
+</div>
+<div class="obj" style="margin: 9px 0; font-size: 15px; display: flex; word-break: break-all; box-sizing: border-box;">
+<div class="obj_label" style="background-color: #fff; border-radius: 0 5px 5px 0; box-sizing: border-box; color: #666; flex: 4 0; padding: 15px 20px;">Street</div>
+<div id="CmCaReT" class="obj_content" style="background-color: #fff; border-radius: 0 5px 5px 0; box-sizing: border-box; color: #666; flex: 4 0; padding: 15px 20px;">${street}</div>
 <div style="clear: both;">&nbsp;</div>
 </div>
 <p><span style="font-size: 12pt;">Thanks!</span></p>
@@ -120,7 +125,7 @@ body {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9b2af868db526300b68d9c66db961925</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>send email confirm</sys_name>
         <sys_overrides/>
         <sys_package display_value="StreetFix" source="x_271485_streetfix">127b880cdb162300b68d9c66db96199e</sys_package>
@@ -128,7 +133,7 @@ body {
         <sys_scope display_value="StreetFix">127b880cdb162300b68d9c66db96199e</sys_scope>
         <sys_update_name>sysevent_email_action_9b2af868db526300b68d9c66db961925</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-12-07 10:41:06</sys_updated_on>
+        <sys_updated_on>2018-12-07 10:56:50</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>
