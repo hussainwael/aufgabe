@@ -38,7 +38,7 @@
                 <element inactive_on_update="false" label="Checked and rejected" sequence="2" value="10"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" dependent="district" dependent_on_field="district" label="Street where the damage is" mandatory="true" max_length="128" name="street" reference="x_271485_streetfix_street" reference_key="street_name" type="reference" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" label="Street where the damage is" mandatory="true" max_length="128" name="street" reference="x_271485_streetfix_street" reference_key="street_name" type="reference" use_dependent_field="true"/>
         <element label="Street Importance" max_length="40" name="street_importance" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="Urgency" mandatory="true" max_length="40" name="urgency" type="choice">
             <choice>
