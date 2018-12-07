@@ -1,18 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
+<?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Street" max_length="40" name="x_271485_streetfix_street" type="collection">
         <element attributes="edge_encryption_enabled=true" label="City" mandatory="true" max_length="32" name="city" reference="x_271485_streetfix_city" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Country" mandatory="true" max_length="40" name="country" type="choice">
             <choice>
-                <element label="Deutschland" value="DE"/>
+                <element inactive_on_update="false" label="Deutschland" value="DE"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" dependent="City" dependent_on_field="City" label="District" mandatory="true" max_length="32" name="district" reference="x_271485_streetfix_district" reference_qual="javascript: 'city=' + current.city;" type="reference" use_dependent_field="true" use_reference_qualifier="advanced"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="2" label="Importance" max_length="128" name="importance" type="choice">
             <choice>
-                <element label="Important" value="2"/>
-                <element label="Less Important" value="3"/>
-                <element label="More Important" value="1"/>
+                <element inactive_on_update="false" label="Important" value="2"/>
+                <element inactive_on_update="false" label="Less Important" value="3"/>
+                <element inactive_on_update="false" label="More Important" value="1"/>
             </choice>
         </element>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Street ID" max_length="40" name="number" read_only="true" type="string"/>

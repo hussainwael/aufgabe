@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="sysevent_email_action">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
     <sysevent_email_action action="INSERT_OR_UPDATE">
         <action_insert>false</action_insert>
         <action_update>false</action_update>
@@ -79,28 +78,26 @@ body {
 			border-radius: 5px 0 0 5px;
 		}
 --></style>
-<div style="font-family: Segoe UI; margin: 0; padding: 25px;">
 <p><span style="font-size: 12pt;">Dear ${reporter_name},</span></p>
 <p><span style="font-size: 12pt;">We would like to thank you for reporting an issue to help us make our streets better for everyone. The issue in ${street}&nbsp;that you reported was received to us and will be forwarded to our team.</span></p>
-<div class="obj">
-<div class="obj_label">Issue ID</div>
-<div class="obj_content">${number}</div>
+<div class="obj" style="margin: 9px 0; font-size: 15px; display: flex; word-break: break-all; box-sizing: border-box;">
+<div class="obj_label" style="background-color: #fff; border-radius: 0 5px 5px 0; box-sizing: border-box; color: #666; flex: 4 0; padding: 15px 20px;">Issue ID</div>
+<div class="obj_content" style="background-color: #fff; border-radius: 0 5px 5px 0; box-sizing: border-box; color: #666; flex: 4 0; padding: 15px 20px;">${number}</div>
 <div style="clear: both;">&nbsp;</div>
 </div>
-<div class="obj">
-<div class="obj_label">City</div>
-<div class="obj_content">${city}</div>
+<div class="obj" style="margin: 9px 0; font-size: 15px; display: flex; word-break: break-all; box-sizing: border-box;">
+<div class="obj_label" style="background-color: #fff; border-radius: 0 5px 5px 0; box-sizing: border-box; color: #666; flex: 4 0; padding: 15px 20px;">City</div>
+<div class="obj_content" style="background-color: #fff; border-radius: 0 5px 5px 0; box-sizing: border-box; color: #666; flex: 4 0; padding: 15px 20px;">${city}</div>
 <div style="clear: both;">&nbsp;</div>
 </div>
-<div class="obj">
-<div class="obj_label">Damage described</div>
-<div class="obj_content">${damage}</div>
+<div class="obj" style="margin: 9px 0; font-size: 15px; display: flex; word-break: break-all; box-sizing: border-box;">
+<div class="obj_label" style="background-color: #fff; border-radius: 0 5px 5px 0; box-sizing: border-box; color: #666; flex: 4 0; padding: 15px 20px;">Damage described</div>
+<div id="CmCaReT" class="obj_content" style="background-color: #fff; border-radius: 0 5px 5px 0; box-sizing: border-box; color: #666; flex: 4 0; padding: 15px 20px;">&gt;${damage}</div>
 <div style="clear: both;">&nbsp;</div>
 </div>
 <p><span style="font-size: 12pt;">Thanks!</span></p>
 <p><span style="font-size: 12pt;">Sincerely,</span></p>
 <p><span style="font-size: 12pt;">Your Streetfix Team</span></p>
-</div>
 <p><span style="font-size: 12pt;">&nbsp;</span></p>]]></message_html>
         <message_list/>
         <message_text/>
@@ -123,7 +120,7 @@ body {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9b2af868db526300b68d9c66db961925</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>send email confirm</sys_name>
         <sys_overrides/>
         <sys_package display_value="StreetFix" source="x_271485_streetfix">127b880cdb162300b68d9c66db96199e</sys_package>
@@ -131,7 +128,7 @@ body {
         <sys_scope display_value="StreetFix">127b880cdb162300b68d9c66db96199e</sys_scope>
         <sys_update_name>sysevent_email_action_9b2af868db526300b68d9c66db961925</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-12-07 10:09:35</sys_updated_on>
+        <sys_updated_on>2018-12-07 10:41:06</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>
