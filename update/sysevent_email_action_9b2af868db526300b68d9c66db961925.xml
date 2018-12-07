@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="sysevent_email_action">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
     <sysevent_email_action action="INSERT_OR_UPDATE">
         <action_insert>false</action_insert>
         <action_update>false</action_update>
@@ -36,14 +35,72 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<div style="font-family: Segoe UI; margin: 25px;">
-<p><span style="font-size: 10pt;">Dear ${reporter_name},</span></p>
-<p><span style="font-size: 10pt;">We would like to thank you for reporting an issue to help us make our streets better for everyone. The issue in ${street}&nbsp;that you reported was received to us and will be forwarded to our team.</span></p>
-<p><span style="font-size: 10pt;">Thanks!</span></p>
-<p><span style="font-size: 10pt;">Sincerely,</span></p>
-<p><span style="font-size: 10pt;">Your Streetfix Team</span></p>
+        <message_html><![CDATA[<style type="text/css"><!--
+body {
+			background-color: #f4f4f4;
+			font-family: Segoe UI !important;
+			padding: 10px;
+		}
+
+		#main {
+			width: 70%;
+			margin: 0 auto;<span id="CmCaReT"></span>
+			padding: 10px;
+			font-size: 23px;
+			margin-top: 50px;
+		}
+
+
+		.obj {
+			margin: 9px 0;
+			font-size: 15px;
+			display: flex;
+			word-break: break-all;
+			box-sizing: border-box;
+
+		}
+
+		.obj_content {
+			background-color: #fff;
+			border-radius: 0 5px 5px 0;
+			box-sizing: border-box;
+			color: #666;
+			flex: 4 0;
+			padding: 15px 20px;
+		}
+
+		.obj_label {
+			background-color: #f9f9f9;
+			padding: 15px 20px;
+			margin-right: 6px;
+			flex: 3 0;
+			box-sizing: border-box;
+			border-radius: 5px 0 0 5px;
+		}
+--></style>
+<div style="font-family: Segoe UI; margin: 0; padding: 25px;">
+<p><span style="font-size: 12pt;">Dear ${reporter_name},</span></p>
+<p><span style="font-size: 12pt;">We would like to thank you for reporting an issue to help us make our streets better for everyone. The issue in ${street}&nbsp;that you reported was received to us and will be forwarded to our team.</span></p>
+<div class="obj">
+<div class="obj_label">Issue ID</div>
+<div class="obj_content">${number}</div>
+<div style="clear: both;">&nbsp;</div>
 </div>
-<p>&nbsp;</p>]]></message_html>
+<div class="obj">
+<div class="obj_label">City</div>
+<div class="obj_content">${city}</div>
+<div style="clear: both;">&nbsp;</div>
+</div>
+<div class="obj">
+<div class="obj_label">Damage described</div>
+<div class="obj_content">${damage}</div>
+<div style="clear: both;">&nbsp;</div>
+</div>
+<p><span style="font-size: 12pt;">Thanks!</span></p>
+<p><span style="font-size: 12pt;">Sincerely,</span></p>
+<p><span style="font-size: 12pt;">Your Streetfix Team</span></p>
+</div>
+<p><span style="font-size: 12pt;">&nbsp;</span></p>]]></message_html>
         <message_list/>
         <message_text/>
         <name>send email confirm</name>
@@ -65,7 +122,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9b2af868db526300b68d9c66db961925</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>send email confirm</sys_name>
         <sys_overrides/>
         <sys_package display_value="StreetFix" source="x_271485_streetfix">127b880cdb162300b68d9c66db96199e</sys_package>
@@ -73,7 +130,7 @@
         <sys_scope display_value="StreetFix">127b880cdb162300b68d9c66db96199e</sys_scope>
         <sys_update_name>sysevent_email_action_9b2af868db526300b68d9c66db961925</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-12-07 08:41:07</sys_updated_on>
+        <sys_updated_on>2018-12-07 10:09:35</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_dictionary action="INSERT_OR_UPDATE" element="street" table="x_271485_streetfix_issue">
         <active>true</active>
         <array>false</array>
@@ -21,8 +20,8 @@
         <default_value/>
         <defaultsort/>
         <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
+        <dependent>district</dependent>
+        <dependent_on_field>district</dependent_on_field>
         <display>false</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
@@ -54,15 +53,15 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-12-06 09:50:13</sys_created_on>
-        <sys_id>8b290d68db52e300f11998e9db96191f</sys_id>
+        <sys_id>da525d20db166300b68d9c66db9619f2</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Street where the damage is</sys_name>
         <sys_package display_value="StreetFix" source="x_271485_streetfix">127b880cdb162300b68d9c66db96199e</sys_package>
         <sys_policy/>
         <sys_scope display_value="StreetFix">127b880cdb162300b68d9c66db96199e</sys_scope>
         <sys_update_name>sys_dictionary_x_271485_streetfix_issue_street</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-12-07 09:34:11</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-07 10:14:40</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
