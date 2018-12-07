@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysevent_register">
     <sysevent_register action="INSERT_OR_UPDATE">
         <description/>
         <event_name>x_271485_streetfix.approved</event_name>

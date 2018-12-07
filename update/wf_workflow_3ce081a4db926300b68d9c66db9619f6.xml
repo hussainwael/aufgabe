@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update table="wf_workflow_version">
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="wf_workflow_version">
     <wf_workflow_version action="INSERT_OR_UPDATE">
         <active>true</active>
         <activity_stages>{"activities":{},"stages":{},"subflows":[],"ends":["34e081a4db926300b68d9c66db9619f9"]}</activity_stages>
@@ -31,12 +32,12 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-12-07 08:57:53</sys_created_on>
         <sys_id>88b08564db926300b68d9c66db9619d7</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-12-07 09:13:49</sys_updated_on>
+        <sys_updated_on>2018-12-07 10:20:07</sys_updated_on>
         <table>x_271485_streetfix_issue</table>
         <timezone/>
-        <validated>false</validated>
+        <validated>true</validated>
         <workflow display_value="Issue Approval">3ce081a4db926300b68d9c66db9619f6</workflow>
     </wf_workflow_version>
     <wf_workflow action="INSERT_OR_UPDATE">
